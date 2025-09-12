@@ -36,6 +36,7 @@ body{ font:16px/1.3 var(--ffp);}
 .just-space-bet{ justify-content: space-between;}
 .just-right{ justify-content: right;}
 .align-center{ align-items: center;}
+.align-bottom{ align-items: end;}
 .resp{ max-width: 100%; height: auto; }
 .text-center{ text-align: center;}
 .text-right{ text-align: right;}
@@ -84,10 +85,38 @@ aside > ul > li:hover .dropdown{ opacity: 1; visibility: visible;}
 
 
 
-.products{}
-.products .icon{}
+.products{ padding: 80px 0; border-bottom: 1px solid #0005;}
+.products .icon{ margin-bottom: 23px;}
 .products .icon span{ display: inline-block; width: 20px; height: 40px; border-radius: 4px; background: var(--red); vertical-align: middle;}
+.heading h2{ font-size: 36px; font-weight: 600;}
+.timer b{ display: block; font-size: 32px; }
+.timer .flex div{ margin-right: 10px;}
+.colon{ position: relative; top: 18px; color: var(--red); font-size: 2rem; }
+.controls{ display: flex; justify-content: end; gap: 8px}
+.controls button{ width: 46px; height: 46px; background: #f5f5f5; border-radius: 50%; border: none; font-size: 20px;}
 
+.product{ margin-top: 40px;}
+.product-img{ position: relative; background: #f5f5f5; text-align: center; padding: 35px 40px ;}
+.product-img a{ display: none; position: absolute; bottom: 0; left: 0; right: 0; background: #000; color:#fff; line-height: 41px; }
+.product-img .discount{ position: absolute; width: 55px; line-height: 26px; background: #db4444; color: #fff; text-align: center; top: 12px; left: 12px; border-radius: 4px;}
+.product-img .wish{ position: absolute; width: 34px; height: 34px; border-radius: 50%; background: #fff; border: none; right: 12px; top: 12px; }
+.product-img .zoom{ position: absolute; width: 34px; height: 34px; border-radius: 50%; background: #fff; border: none; right: 12px; top:54px }
+.price{ margin: 8px 0;}
+
+.product-des{ padding-top: 16px;}
+.product:hover a{ display: block;}
+.view-all{ text-align: center; margin-top: 60px; }
+.view-all.left{ text-align: left; margin-top: 60px; }
+.view-all button{ background: #db4444; width: 234px; height: 56px; color: #fff; border-radius: 4px; border: none; font-size: 16px; font-weight: 500;}
+.category{ border: 1px solid #0005; border-radius: 4px; text-align: center; padding: 25px 0; margin-top: 60px;}
+.category figure{ margin-bottom: 16px;}
+.category:hover{ background: #db4444; color: #fff; fill: #fff;}
+.category:hover img{ filter: invert(1); }
+.sep{ border-bottom: 1px solid #0005; margin: 70px 0; }
+
+
+
+footer{ background: #000; padding: 80px 0 24px; color: #fff;}
 
 /* responsive */
 @media screen and (max-width:1220px) {
